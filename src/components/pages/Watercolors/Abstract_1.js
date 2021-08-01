@@ -20,12 +20,12 @@ function ProductItem() {
   <Image src={Abstract_1} fluid rounded className="product_image"/>
   </a>
   </Row>
-  <Row lg={12} md={8} className="bottom-description ml-5 mt-3">
+  <Row lg={12}className="bottom-description ml-5 mt-3">
       
       <ul className="bottom-description mt-2">
       <Card body className="mb-3">
          <li className="text-center mt-2">
-             <h1>Abstract 1</h1>
+             <h1>Abstract</h1>
          </li>
          <li className="text-center mt-2">
              <h3>$100</h3>
