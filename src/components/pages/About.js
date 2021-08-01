@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './About.css';
 import pfp from '../../images/Profile_Photos/TM_2_color.PNG';
-
+import Footer from '../Footer';
 
 export default function Products() {
     return (
@@ -18,6 +18,7 @@ export default function Products() {
         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
         
+        <Footer/>
         </>
     );
 }

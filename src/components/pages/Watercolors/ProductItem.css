@@ -1,0 +1,51 @@
+/*
+CODE TO TRACK LAYOUT
+
+.rows {
+    border: 2px solid red;
+    padding-right: 50px;
+}
+
+.columns {
+    border: 2px solid green;
+}
+
+.container {
+    border: 5px solid blue;
+}
+
+.picture {
+    border: 2px solid red;
+}
+*/
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(226, 226, 226));
+}
+
+.product_image {
+    width: 350px;
+    height: 350px;
+    position: sticky;
+    z-index: 1;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.bottom-description {
+    padding-right: 50px;
+}
+
+.email-me {
+    font-size: 1rem;
+}
+
+.click-the-button {
+    color: rgb(73, 73, 73);
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}

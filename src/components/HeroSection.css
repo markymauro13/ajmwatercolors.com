@@ -1,18 +1,18 @@
-img{
+img {
     object-fit: cover;
     width: 100%;
-    height:100%;
+    height: 100%;
     position: fixed;
-    z-index:-1;
+    z-index: -1;
 }
 
-p{
- text-align: center;
+p {
+    text-align: center;
 }
 
-.hero-container{
+.hero-container {
     /*background: url('/src/images/img-5.jpg') center center/cover no-repeat;*/
-    background: url('/src/images/Website_Photos/Boat_2.JPG') center center/cover no-repeat;
+    background: url('/src/images/Website_Photos/ASBURY_CH_1.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -23,20 +23,20 @@ p{
     object-fit: contain;
 }
 
-.hero-container>h1{
+.hero-container>h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
 }
 
-.hero-container>p{
-    margin-top:8px;
+.hero-container>p {
+    margin-top: 8px;
     color: #fff;
-    font-size:32px;
+    font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns{
+.hero-btns {
     margin-top: 32px;
 }
 
@@ -44,29 +44,29 @@ p{
     margin: 6px;
 }
 
-@media screen and (max-width:960px){
-    .hero-container>h1{
+@media screen and (max-width:960px) {
+    .hero-container>h1 {
         font-size: 70px;
         margin-top: -150px;
-    }     
+    }
 }
 
-@media screen and (max-width:768px){
-    .hero-container>h1{
+@media screen and (max-width:768px) {
+    .hero-container>h1 {
         font-size: 50px;
         margin-top: -100px;
-    }     
+    }
 
-    .hero-container>p{
+    .hero-container>p {
         font-size: 30px;
     }
 
-    .btn-mobile{
+    .btn-mobile {
         display: block;
         text-decoration: none;
     }
 
-    .btn{
+    .btn {
         width: 100%;
     }
 }
