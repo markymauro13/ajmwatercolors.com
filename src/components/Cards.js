@@ -305,26 +305,6 @@ function Cards() {
             </ul>
             <ul className='cards__items'>
             <CardItem
-                src={Boat_1}
-                text='Boat 1'
-                label='$150'
-                path='/products'
-              />
-            <CardItem
-                src={Boat_2}
-                text='Boat 2'
-                label='$150'
-                path='/products'
-              />
-              <CardItem
-                src={Boat_3}
-                text='Boat 3'
-                label='$150'
-                path='/products'
-              />
-            </ul>
-            <ul className='cards__items'>
-            <CardItem
                 src={Edgewater_1}
                 text='Edgewater 1'
                 label='$100'
