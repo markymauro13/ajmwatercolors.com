@@ -75,7 +75,6 @@ import Zodiac_1 from '../images/Website_Photos/Zodiac_1.JPG';
 import Zodiac_2 from '../images/Website_Photos/Zodiac_2.JPG'; 
 import Bones_1 from '../images/Website_Photos/Bones_1.JPG';
 
-
 function Cards() {
   return (
     <>
