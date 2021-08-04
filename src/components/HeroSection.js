@@ -13,7 +13,7 @@ function HeroSection() {
             <h1>AJM Watercolors</h1>
             <p>Original watercolor paintings crafted by the Jersey Shore.</p>
             <div className="hero-btns">
-            <Link to="/products"><Button variant="light" size="lg" >Shop Now</Button></Link>
+            <Link to="/paintings"><Button variant="light" size="lg" >Shop Now</Button></Link>
             </div>
         </div>
     );
