@@ -14,42 +14,23 @@ import Card from 'react-bootstrap/Card'
 function ProductItem() {
     return (
 <>  
-  <Container className="justify-content-md-center">
-  <Row sm={4} md={4} lg={4} className="picture mt-4 justify-content-md-center">
-  <a href={Abstract_1}>
-  <Image src={Abstract_1} fluid rounded className="product_image"/>
-  </a>
-  </Row>
-  <Row lg={12}className="bottom-description ml-5 mt-3">
-      
-      <ul className="bottom-description mt-2">
-      <Card body className="mb-3">
-         <li className="text-center mt-2">
-             <h1>Abstract</h1>
-         </li>
-         <li className="text-center mt-2">
-             <h3>$100</h3>
-         </li> 
-         <li className="text-center mt-2">
-            <p>Dimensions: 12x16</p>
-         </li>
-         <li className="click-the-button text-center mt-2">
-             <p>Click the button to write me an email to buy your painting.</p>
-         </li>
-         <li className="text-center mt-2">
-             <a href="mailto:ajmstudiowatercolors@gmail.com?subject=Interested%20in%20Abstract1&amp;body=Hello%20Tony,&amp;">
-             <div className="mb-3 p-2">
-             <Button variant="dark">Buy Now</Button>{' '}
-             </div>
-             </a>
-        </li>
-        </Card>
-
-     </ul>
-    </Row>
+    
+    <Container className="justify-content-md-center">    
+    <Card style={{ width: '18rem' }} className="text-center">
+        <Card.Img variant="top" src={Abstract_1} className="product_image"/>
+            <Card.Body>
+             <Card.Title>Abstract 1</Card.Title>
+             <Card.Text>$100</Card.Text>
+             <Card.Text>Dimensions: 12x16</Card.Text>
+                <Card.Text className="click-the-button">
+                    Click the button to write me an email to buy your painting.
+                </Card.Text>
+                <Button variant="dark">Buy Now</Button>{' '}
+            </Card.Body>
+    </Card>
     </Container>
-
 <Footer/>
+
 </>
     );
 

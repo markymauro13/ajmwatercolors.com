@@ -18,7 +18,7 @@
   /*
   line below makes the nav items in the navbar stay in the right
   */
-  max-width: 1800px;
+  max-width: 1500px;
 }
 
 .navbar-logo {
@@ -51,7 +51,7 @@
   list-style: none;
   text-align: center;
   width: 100vw;
-  justify-content: end !important;
+  justify-content: end;
 }
 
 .nav-item {
