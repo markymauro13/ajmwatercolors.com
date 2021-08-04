@@ -5,7 +5,7 @@ import Home from './components/pages/Home';
 import Paintings from './components/pages/Paintings';
 import About from './components/pages/About';
 import Abstract_1 from './components/pages/Watercolors/Abstract_1';
-// properly configures product pages (im using the layout system)
+// properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from './components/ScrollToTop';
 
