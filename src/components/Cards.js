@@ -93,13 +93,13 @@ function Cards() {
               src={Abstract_2}
               text='Abstract 2'
               label='$150'
-              path='/products'
+              path='/Abstract_2'
             />
             <CardItem
               src={Abstract_3}
               text='Abstract 3'
               label='$200'
-              path='/products'
+              path='/Abstract_3'
             />
           </ul >
           <ul className='cards__items'>
