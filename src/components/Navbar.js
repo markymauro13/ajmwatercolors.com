@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
+import ajm from '../images/Website_Photos/ajmwatercolors_icon.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -29,7 +30,10 @@ function Navbar() {
             <nav className = "navbar">
                 <div className = "navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                       AJM 
+                        {/* <div>
+                       <img src={ajm} width="20" height="20" alt="ajm_home"/> 
+                       </div> */}
+                       AJM
                     </Link>
 
                 <div className="menu-icon" onClick = {handleClick}>
