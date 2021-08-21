@@ -1,14 +1,16 @@
 import React from 'react';
 import './ProductItem.css';
 import Abstract_2 from '../../../images/Website_Photos/Abstract_2.JPG'; 
-import Footer from '../../Footer';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
+import Alert from 'react-bootstrap/Alert'
 
 function ProductItem() {
     return (
     <>  
-
+        {/* <div className="container mt-4 text-center">
+        <Alert variant="dark">Click the image to enlarge!</Alert>
+        </div> */}
         <div className="image-container">
             <a href={Abstract_2} target="_blank">
             <Image src={Abstract_2} className="product_image" width="600" height="400"/>
