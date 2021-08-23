@@ -43,6 +43,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    background-color: white;
 }
 
 .container-desc{

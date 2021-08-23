@@ -10,6 +10,10 @@ import Abstract_3 from './components/pages/Watercolors/Abstract_3';
 import Abstract_4 from './components/pages/Watercolors/Abstract_4';
 import Abstract_5 from './components/pages/Watercolors/Abstract_5';
 import Abstract_6 from './components/pages/Watercolors/Abstract_6';
+import AJ_1 from './components/pages/Watercolors/AJ_1';
+import AJ_2 from './components/pages/Watercolors/AJ_2';
+import America from './components/pages/Watercolors/America';
+
 // properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from './components/ScrollToTop';
@@ -32,6 +36,9 @@ function App() {
         <Route path = '/Abstract_4' component={ Abstract_4 }/>
         <Route path = '/Abstract_5' component={ Abstract_5 }/>
         <Route path = '/Abstract_6' component={ Abstract_6 }/>
+        <Route path = '/AJ_1' component={ AJ_1 }/>
+        <Route path = '/AJ_2' component={ AJ_2 }/>
+        <Route path = '/America' component={ America }/>
       </Switch>
       </Router>
     </>
