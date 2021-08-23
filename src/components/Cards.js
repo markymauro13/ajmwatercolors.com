@@ -148,19 +148,19 @@ function Cards() {
                 src={ASBURY_CH_1}
                 text='Asbury 1'
                 label='$250'
-                path='/products'
+                path='/Asbury_1'
               />
             <CardItem
                 src={ASBURY_CH_2}
                 text='Asbury 2'
                 label='$250'
-                path='/products'
+                path='/Asbury_2'
               />
               <CardItem
                 src={ASBURY_CH_3}
                 text='Asbury 3'
                 label='$250'
-                path='/products'
+                path='/Asbury_3'
               />
           </ul>
           <ul className='cards__items'>

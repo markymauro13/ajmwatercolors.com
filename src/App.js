@@ -13,6 +13,9 @@ import Abstract_6 from './components/pages/Watercolors/Abstract_6';
 import AJ_1 from './components/pages/Watercolors/AJ_1';
 import AJ_2 from './components/pages/Watercolors/AJ_2';
 import America from './components/pages/Watercolors/America';
+import Asbury_1 from './components/pages/Watercolors/Asbury_1';
+import Asbury_2 from './components/pages/Watercolors/Asbury_2';
+import Asbury_3 from './components/pages/Watercolors/Asbury_3';
 
 // properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,6 +42,9 @@ function App() {
         <Route path = '/AJ_1' component={ AJ_1 }/>
         <Route path = '/AJ_2' component={ AJ_2 }/>
         <Route path = '/America' component={ America }/>
+        <Route path = '/Asbury_1' component={ Asbury_1 }/>
+        <Route path = '/Asbury_2' component={ Asbury_2 }/>
+        <Route path = '/Asbury_3' component={ Asbury_3 }/>
       </Switch>
       </Router>
     </>
