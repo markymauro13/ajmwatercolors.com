@@ -39,7 +39,7 @@ import Allegience from '../images/Website_Photos/DSC_1392.JPG';
 import Edgewater_1 from '../images/Website_Photos/Edgewater_1.JPG';
 import Edgewater_2 from '../images/Website_Photos/Edgewater_2.JPG';
 import Flowers from '../images/Website_Photos/Flowers.jpg';
-import Frosty from  '../images/Website_Photos/Flowers.jpg';
+import Frosty from  '../images/Website_Photos/Frosty.JPG';
 import House_1 from  '../images/Website_Photos/House_1.jpg';
 import Italy from  '../images/Website_Photos/Italy.JPG';
 import Landscape_1 from  '../images/Website_Photos/Landscape_1.JPG';
@@ -168,19 +168,19 @@ function Cards() {
                 src={ASBURY_CH_4}
                 text='Asbury 4'
                 label='$100'
-                path='/products'
+                path='/Asbury_4'
               />
             <CardItem
                 src={ASBURY_CH_5}
                 text='Asbury 5'
                 label='$100'
-                path='/products'
+                path='/Asbury_5'
               />
               <CardItem
                 src={ASBURY_CH_6}
                 text='Asbury 6'
                 label='$75'
-                path='/products'
+                path='/Asbury_6'
               />
           </ul>
           <ul className='cards__items'>
@@ -188,19 +188,19 @@ function Cards() {
                 src={ASBURY_Life}
                 text='Asbury Life'
                 label='$150'
-                path='/products'
+                path='/Asbury_Life'
               />
             <CardItem
                 src={Avon_1}
                 text='Avon 1'
                 label='$25'
-                path='/products'
+                path='/Avon_1'
               />
               <CardItem
                 src={Avon_2}
                 text='Avon 2'
                 label='$50'
-                path='/products'
+                path='/Avon_2'
               />
           </ul>
           <ul className='cards__items'>
@@ -208,19 +208,19 @@ function Cards() {
                 src={Balcony}
                 text='Balcony'
                 label='$75'
-                path='/products'
+                path='/Balcony'
               />
             <CardItem
                 src={Balls}
                 text='Balls'
                 label='SOLD'
-                path='/products'
+                path='/Balls'
               />
               <CardItem
                 src={BelmarBridge}
                 text='Belmar Bridge'
                 label='$250'
-                path='/products'
+                path='/BelmarBridge'
               />
           </ul>
           <ul className='cards__items'>
@@ -228,19 +228,19 @@ function Cards() {
                 src={Bermuda}
                 text='Bermuda'
                 label='$125'
-                path='/products'
+                path='/Bermuda'
               />
             <CardItem
                 src={Birch_1}
                 text='Birch 1'
                 label='$75'
-                path='/products'
+                path='/Birch_1'
               />
               <CardItem
                 src={Birch_2}
                 text='Birch 2'
                 label='$75'
-                path='/products'
+                path='/Birch_2'
               />
             </ul>
             <ul className='cards__items'>
@@ -248,19 +248,19 @@ function Cards() {
                 src={Bluejays}
                 text='Bluejays'
                 label='$75'
-                path='/products'
+                path='/Bluejays'
               />
             <CardItem
                 src={Bluewhale}
                 text='Bluewhale'
                 label='$75'
-                path='/products'
+                path='/Bluewhale'
               />
               <CardItem
                 src={Cards_paintings}
                 text='Cards'
                 label='SOLD'
-                path='/products'
+                path='/CardsPainting'
               />
             </ul>
             <ul className='cards__items'>
@@ -268,19 +268,19 @@ function Cards() {
                 src={Boat_1}
                 text='Boat 1'
                 label='$150'
-                path='/products'
+                path='/Boat_1'
               />
             <CardItem
                 src={Boat_2}
                 text='Boat 2'
                 label='$150'
-                path='/products'
+                path='/Boat_2'
               />
               <CardItem
                 src={Boat_3}
                 text='Boat 3'
                 label='$150'
-                path='/products'
+                path='/Boat_3'
               />
             </ul>
             <ul className='cards__items'>
@@ -288,19 +288,19 @@ function Cards() {
                 src={Cosmos_Queen}
                 text='Cosmos Queen'
                 label='$150'
-                path='/products'
+                path='/Cosmos_Queen'
               />
             <CardItem
                 src={Butterflys}
                 text='Butterflys'
                 label='SOLD'
-                path='/products'
+                path='/Butterflys'
               />
               <CardItem
                 src={Allegience}
                 text='Allegience'
                 label='SOLD'
-                path='/products'
+                path='/Allegience'
               />
             </ul>
             <ul className='cards__items'>
@@ -308,19 +308,19 @@ function Cards() {
                 src={Edgewater_1}
                 text='Edgewater 1'
                 label='$100'
-                path='/products'
+                path='/Edgewater_1'
               />
             <CardItem
                 src={Edgewater_2}
                 text='Edgewater 2'
                 label='$100'
-                path='/products'
+                path='/Edgewater_2'
               />
               <CardItem
                 src={Flowers}
                 text='Flowers'
                 label='SOLD'
-                path='/products'
+                path='/Flowers'
               />
             </ul>
             <ul className='cards__items'>
@@ -328,19 +328,19 @@ function Cards() {
                 src={Frosty}
                 text='Frosty'
                 label='SOLD'
-                path='/products'
+                path='/Frosty'
               />
             <CardItem
                 src={House_1}
                 text='House 1'
                 label='SOLD'
-                path='/products'
+                path='/House_1'
               />
               <CardItem
                 src={Italy}
                 text='Italy'
                 label='$100'
-                path='/products'
+                path='/Italy'
               />
             </ul>
             <ul className='cards__items'>
@@ -348,7 +348,7 @@ function Cards() {
                 src={Landscape_1}
                 text='Landscape 1'
                 label='$100'
-                path='/products'
+                path='/Landscape_1'
               />
             <CardItem
                 src={Landscape_2}
@@ -360,7 +360,7 @@ function Cards() {
                 src={Landscape_3}
                 text='Landscape 3'
                 label='$100'
-                path='/products'
+                path='/Landscape_2'
               />
             </ul>
             <ul className='cards__items'>
@@ -368,7 +368,7 @@ function Cards() {
                 src={KoiFish}
                 text='Koi Fish'
                 label='$50'
-                path='/products'
+                path='/KoiFish'
               />
             <CardItem
                 src={Lighthouse}
