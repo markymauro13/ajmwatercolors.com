@@ -354,13 +354,13 @@ function Cards() {
                 src={Landscape_2}
                 text='Landscape 2'
                 label='$100'
-                path='/products'
+                path='/Landscape_2'
               />
               <CardItem
                 src={Landscape_3}
                 text='Landscape 3'
                 label='$100'
-                path='/Landscape_2'
+                path='/Landscape_3'
               />
             </ul>
             <ul className='cards__items'>
@@ -374,13 +374,13 @@ function Cards() {
                 src={Lighthouse}
                 text='Lighthouse'
                 label='$50'
-                path='/products'
+                path='/Lighthouse'
               />
               <CardItem
                 src={Nativity_1}
                 text='Nativity'
                 label='SOLD'
-                path='/products'
+                path='/Nativity'
               />
             </ul>
             <ul className='cards__items'>
@@ -388,19 +388,19 @@ function Cards() {
                 src={OG_Nagles}
                 text='Ocean Grove Nagles'
                 label='$250'
-                path='/products'
+                path='/OG_Nagles'
               />
             <CardItem
                 src={OG_Tents}
                 text='Ocean Grove Tents'
                 label='$250'
-                path='/products'
+                path='/OG_Tents'
               />
               <CardItem
                 src={OT_Tower}
                 text='Ocean Township Tower'
                 label='SOLD'
-                path='/products'
+                path='/OT_Tower'
               />
             </ul>
             <ul className='cards__items'>
@@ -408,19 +408,19 @@ function Cards() {
                 src={OU_5th}
                 text='Oklahoma University'
                 label='$'
-                path='/products'
+                path='/OU_5th'
               />
             <CardItem
                 src={Pathway}
                 text='Pathway'
                 label='$100'
-                path='/products'
+                path='/Pathway'
               />
               <CardItem
                 src={Ribbon}
                 text='Ribbon'
                 label='SOLD'
-                path='/products'
+                path='/Ribbon'
               />
             </ul>
             <ul className='cards__items'>
@@ -428,19 +428,19 @@ function Cards() {
                 src={Sail_1}
                 text='Sail 1'
                 label='$400'
-                path='/products'
+                path='/Sail_1'
               />
             <CardItem
                 src={Sail_2}
                 text='Sail 2'
                 label='$25'
-                path='/products'
+                path='/Sail_2'
               />
               <CardItem
                 src={Sail_3}
                 text='Sail 3'
                 label='$200'
-                path='/products'
+                path='/Sail_3'
               />
             </ul>
             <ul className='cards__items'>
@@ -448,19 +448,19 @@ function Cards() {
                 src={Sail_4}
                 text='Sail 4'
                 label='$150'
-                path='/products'
+                path='/Sail_4'
               />
             <CardItem
                 src={Sail_5}
                 text='Sail 5'
                 label='$25'
-                path='/products'
+                path='/Sail_5'
               />
               <CardItem
                 src={Sail_6}
                 text='Sail 6'
                 label='$75'
-                path='/products'
+                path='/Sail_6'
               />
             </ul>
             <ul className='cards__items'>
@@ -468,19 +468,19 @@ function Cards() {
                 src={Sail_7}
                 text='Sail 7'
                 label='SOLD'
-                path='/products'
+                path='/Sail_7'
               />
             <CardItem
                 src={Sandyhook}
                 text='Sandyhook'
                 label='$50'
-                path='/products'
+                path='/Sandyhook'
               />
               <CardItem
                 src={Seascape}
                 text='Seascape Sunrise'
                 label='$75'
-                path='/products'
+                path='/Seascape'
               />
             </ul>
             <ul className='cards__items'>
@@ -488,19 +488,19 @@ function Cards() {
                 src={Shawnee}
                 text='Shawnee'
                 label='$150'
-                path='/products'
+                path='/Shawnee'
               />
             <CardItem
                 src={TerrisArch}
                 text='Arch'
                 label='SOLD'
-                path='/products'
+                path='/TerrisArch'
               />
               <CardItem
                 src={Umbrellas}
                 text='Umbrellas'
                 label='$150'
-                path='/products'
+                path='/Umbrellas'
               />
             </ul>
             <ul className='cards__items'>
@@ -508,19 +508,19 @@ function Cards() {
                 src={Wave_1}
                 text='Wave 1'
                 label='SOLD'
-                path='/products'
+                path='/Wave_1'
               />
             <CardItem
                 src={Wave_2}
                 text='Wave 2'
                 label='$150'
-                path='/products'
+                path='/Wave_2'
               />
               <CardItem
                 src={Wave_3}
                 text='Wave 3'
                 label='$150'
-                path='/products'
+                path='/Wave_3'
               />
             </ul>
             <ul className='cards__items'>
@@ -528,19 +528,19 @@ function Cards() {
                 src={Bones_1}
                 text='Bones 1'
                 label='SOLD'
-                path='/products'
+                path='/Bones_1'
               />
             <CardItem
                 src={Victory}
                 text='Victory'
                 label='$'
-                path='/products'
+                path='/Victory'
               />
             <CardItem
                 src={York_Beach}
                 text='York Beach'
                 label='$'
-                path='/products'
+                path='/York_Beach'
               />
             </ul>
             <ul className='cards__items'>
@@ -548,13 +548,13 @@ function Cards() {
                 src={Zodiac_1}
                 text='Zodiac 1'
                 label='$50'
-                path='/products'
+                path='/Zodiac_1'
               />
             <CardItem
                 src={Zodiac_2}
                 text='Zodiac 2'
                 label='$50'
-                path='/products'
+                path='/Zodiac_2'
               />
             </ul>
         </div>

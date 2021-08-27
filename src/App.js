@@ -38,6 +38,30 @@ import Cosmos_Queen from './components/pages/Watercolors/Cosmos_Queen';
 import Butterflys from './components/pages/Watercolors/Butterflys';
 import Flowers from './components/pages/Watercolors/Flowers';
 import Allegience from './components/pages/Watercolors/Allegience';
+import Edgewater_1 from './components/pages/Watercolors/Edgewater_1';
+import Edgewater_2 from './components/pages/Watercolors/Edgewater_2';
+import Frosty from './components/pages/Watercolors/Frosty';
+import House_1 from './components/pages/Watercolors/House_1';
+import Italy from './components/pages/Watercolors/Italy';
+import Landscape_1 from './components/pages/Watercolors/Landscape_1';
+import Landscape_2 from './components/pages/Watercolors/Landscape_2';
+import Landscape_3 from './components/pages/Watercolors/Landscape_3';
+import KoiFish from './components/pages/Watercolors/KoiFish';
+import Lighthouse from './components/pages/Watercolors/Lighthouse';
+import Nativity from './components/pages/Watercolors/Nativity';
+import OG_Nagles from './components/pages/Watercolors/OG_Nagles';
+import OG_Tents from './components/pages/Watercolors/OG_Tents';
+import OT_Tower from './components/pages/Watercolors/OT_Tower';
+import OU_5th from './components/pages/Watercolors/OU_5th';
+import Pathway from './components/pages/Watercolors/Pathway';
+import Ribbon from './components/pages/Watercolors/Ribbon';
+import Sail_1 from './components/pages/Watercolors/Sail_1';
+import Sail_2 from './components/pages/Watercolors/Sail_2';
+import Sail_3 from './components/pages/Watercolors/Sail_3';
+import Sail_4 from './components/pages/Watercolors/Sail_4';
+import Sail_5 from './components/pages/Watercolors/Sail_5';
+import Sail_6 from './components/pages/Watercolors/Sail_6';
+import Sail_7 from './components/pages/Watercolors/Sail_7';
 
 // properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -89,6 +113,30 @@ function App() {
         <Route path = '/Butterflys' component={ Butterflys }/>
         <Route path = '/Flowers' component={ Flowers }/>
         <Route path = '/Allegience' component={ Allegience }/>
+        <Route path = '/Edgewater_1' component={ Edgewater_1 }/>
+        <Route path = '/Edgewater_2' component={ Edgewater_2 }/>
+        <Route path = '/Frosty' component={ Frosty }/>
+        <Route path = '/House_1' component={ House_1 }/>
+        <Route path = '/Italy' component={ Italy }/>
+        <Route path = '/Landscape_1' component={ Landscape_1 }/>
+        <Route path = '/Landscape_2' component={ Landscape_2 }/>
+        <Route path = '/Landscape_3' component={ Landscape_3 }/>
+        <Route path = '/KoiFish' component={ KoiFish }/>
+        <Route path = '/Lighthouse' component={ Lighthouse }/>
+        <Route path = '/Nativity' component={ Nativity }/>
+        <Route path = '/OG_Nagles' component={ OG_Nagles }/>
+        <Route path = '/OG_Tents' component={ OG_Tents }/>
+        <Route path = '/OT_Tower' component={ OT_Tower }/>
+        <Route path = '/OU_5th' component={ OU_5th }/>
+        <Route path = '/Pathway' component={ Pathway }/>
+        <Route path = '/Ribbon' component={ Ribbon }/>
+        <Route path = '/Sail_1' component={ Sail_1 }/>
+        <Route path = '/Sail_2' component={ Sail_2 }/>
+        <Route path = '/Sail_3' component={ Sail_3 }/>
+        <Route path = '/Sail_4' component={ Sail_4 }/>
+        <Route path = '/Sail_5' component={ Sail_5 }/>
+        <Route path = '/Sail_6' component={ Sail_6 }/>
+        <Route path = '/Sail_7' component={ Sail_7 }/>
       </Switch>
       </Router>
     </>
