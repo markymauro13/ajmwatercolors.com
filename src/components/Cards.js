@@ -492,7 +492,7 @@ function Cards() {
               />
             <CardItem
                 src={TerrisArch}
-                text='Arch'
+                text="Terri's Arch"
                 label='SOLD'
                 path='/TerrisArch'
               />
@@ -526,9 +526,9 @@ function Cards() {
             <ul className='cards__items'>
             <CardItem
                 src={Bones_1}
-                text='Bones 1'
+                text='Bones'
                 label='SOLD'
-                path='/Bones_1'
+                path='/Bones'
               />
             <CardItem
                 src={Victory}

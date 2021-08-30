@@ -62,6 +62,19 @@ import Sail_4 from './components/pages/Watercolors/Sail_4';
 import Sail_5 from './components/pages/Watercolors/Sail_5';
 import Sail_6 from './components/pages/Watercolors/Sail_6';
 import Sail_7 from './components/pages/Watercolors/Sail_7';
+import Sandyhook from './components/pages/Watercolors/Sandyhook';
+import Seascape from './components/pages/Watercolors/Seascape';
+import Shawnee from './components/pages/Watercolors/Shawnee';
+import TerrisArch from './components/pages/Watercolors/Arch';
+import Umbrellas from './components/pages/Watercolors/Umbrellas';
+import Wave_1 from './components/pages/Watercolors/Wave_1';
+import Wave_2 from './components/pages/Watercolors/Wave_2';
+import Wave_3 from './components/pages/Watercolors/Wave_3';
+import Bones from './components/pages/Watercolors/Bones';
+import Victory from './components/pages/Watercolors/Victory';
+import York_Beach from './components/pages/Watercolors/York_Beach';
+import Zodiac_1 from './components/pages/Watercolors/Zodiac_1';
+import Zodiac_2 from './components/pages/Watercolors/Zodiac_2';
 
 // properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -137,6 +150,19 @@ function App() {
         <Route path = '/Sail_5' component={ Sail_5 }/>
         <Route path = '/Sail_6' component={ Sail_6 }/>
         <Route path = '/Sail_7' component={ Sail_7 }/>
+        <Route path = '/Sandyhook' component={ Sandyhook }/>
+        <Route path = '/Seascape' component={ Seascape }/>
+        <Route path = '/Shawnee' component={ Shawnee }/>
+        <Route path = '/TerrisArch' component={ TerrisArch }/>
+        <Route path = '/Umbrellas' component={ Umbrellas }/>
+        <Route path = '/Wave_1' component={ Wave_1 }/>
+        <Route path = '/Wave_2' component={ Wave_2 }/>
+        <Route path = '/Wave_3' component={ Wave_3 }/>
+        <Route path = '/Bones' component={ Bones }/>
+        <Route path = '/Victory' component={ Victory }/>
+        <Route path = '/York_Beach' component={ York_Beach }/>
+        <Route path = '/Zodiac_1' component={ Zodiac_1 }/>
+        <Route path = '/Zodiac_2' component={ Zodiac_2 }/>
       </Switch>
       </Router>
     </>
