@@ -75,6 +75,10 @@ import Victory from './components/pages/Watercolors/Victory';
 import York_Beach from './components/pages/Watercolors/York_Beach';
 import Zodiac_1 from './components/pages/Watercolors/Zodiac_1';
 import Zodiac_2 from './components/pages/Watercolors/Zodiac_2';
+import Beach_1 from './components/pages/Watercolors/Beach_1';
+import Birch_3 from './components/pages/Watercolors/Birch_3';
+import Landscape_4 from './components/pages/Watercolors/Landscape_4';
+import Sail_8 from './components/pages/Watercolors/Sail_8';
 
 // properly configures p pages (im using the layout system)
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -163,6 +167,10 @@ function App() {
         <Route path = '/York_Beach' component={ York_Beach }/>
         <Route path = '/Zodiac_1' component={ Zodiac_1 }/>
         <Route path = '/Zodiac_2' component={ Zodiac_2 }/>
+        <Route path = '/Beach_1' component={ Beach_1 }/>
+        <Route path = '/Birch_3' component={ Birch_3 }/>
+        <Route path = '/Landscape_4' component={ Landscape_4 }/>
+        <Route path = '/Sail_8' component={ Sail_8 }/>
       </Switch>
       </Router>
     </>

@@ -75,6 +75,13 @@ import Zodiac_1 from '../images/Website_Photos/Zodiac_1.JPG';
 import Zodiac_2 from '../images/Website_Photos/Zodiac_2.JPG'; 
 import Bones_1 from '../images/Website_Photos/Bones_1.JPG';
 
+import Beach_1 from '../images/Website_Photos/Beach_1.jpg';
+import Birch_3 from '../images/Website_Photos/Birch_3.jpg';
+import Landscape_4 from '../images/Website_Photos/Landscape_4.jpg';
+import Navy_1 from '../images/Website_Photos/Navy_1.jpg';
+import Sunset from   '../images/Website_Photos/Sunset.jpg';
+import Sail_8 from   '../images/Website_Photos/Sail_8.jpg';
+
 function Cards() {
   return (
     <>
@@ -555,6 +562,46 @@ function Cards() {
                 text='Zodiac 2'
                 label='$50'
                 path='/Zodiac_2'
+              />
+            <CardItem
+                src={Beach_1}
+                text='Beach 1'
+                label='$50'
+                path='/Beach_1'
+              />
+            </ul>
+            <ul className='cards__items'>
+            <CardItem
+                src={Birch_3}
+                text='Birch 3'
+                label='$100'
+                path='/Birch_3'
+              />
+            <CardItem
+                src={Landscape_4}
+                text='Landscape 4'
+                label='$75'
+                path='/Landscape_4'
+              />
+            <CardItem
+                src={Navy_1}
+                text='Navy 1'
+                label='$300'
+                path='/Navy_1'
+              />
+            </ul>
+            <ul className='cards__items'>
+            <CardItem
+                src={Sunset}
+                text='Sunset'
+                label='$250'
+                path='/Sunset'
+              />
+            <CardItem
+                src={Sail_8}
+                text='Sail 8'
+                label='$100'
+                path='/Sail_8'
               />
             </ul>
         </div>

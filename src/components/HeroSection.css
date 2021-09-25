@@ -12,7 +12,8 @@ p {
 
 .hero-container {
     /*background: url('/src/images/img-5.jpg') center center/cover no-repeat;*/
-    background: url('/src/images/Website_Photos/ASBURY_CH_1.jpg') center center/cover no-repeat;
+    /* background: url('/src/images/Website_Photos/ASBURY_CH_1.jpg') center center/cover no-repeat; */
+    background: url('/src/images/Website_Photos/Header_1.JPG') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,6 +22,7 @@ p {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    box-shadow: inset 0 0 150px black;
 }
 
 .hero-container>h1 {
