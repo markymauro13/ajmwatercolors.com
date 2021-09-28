@@ -78,6 +78,8 @@ import Zodiac_2 from './components/pages/Watercolors/Zodiac_2';
 import Beach_1 from './components/pages/Watercolors/Beach_1';
 import Birch_3 from './components/pages/Watercolors/Birch_3';
 import Landscape_4 from './components/pages/Watercolors/Landscape_4';
+import Navy_1 from './components/pages/Watercolors/Navy_1';
+import Sunset from './components/pages/Watercolors/Sunset';
 import Sail_8 from './components/pages/Watercolors/Sail_8';
 
 // properly configures p pages (im using the layout system)
@@ -170,6 +172,8 @@ function App() {
         <Route path = '/Beach_1' component={ Beach_1 }/>
         <Route path = '/Birch_3' component={ Birch_3 }/>
         <Route path = '/Landscape_4' component={ Landscape_4 }/>
+        <Route path = '/Navy_1' component={ Navy_1 }/>
+        <Route path = '/Sunset' component={ Sunset }/>
         <Route path = '/Sail_8' component={ Sail_8 }/>
       </Switch>
       </Router>
