@@ -7,16 +7,10 @@ export default function Products() {
     return (
         <>
             <h1 className="about">About</h1>
-            
             <img src={pfp} alt="tony-pfp" className="profile-photo-1"></img>
             <p className="about-paragraph">
                 Anthony J. Mauro is an artist and architect who resides at the Jersey Shore and West Palm Beach. "Tony" draws his inspiration from his love of nature and the built environment.
                 </p>
-            <div className="image-container">
-                <div className="desc-container text-center">
-                
-                </div>
-            </div>
         </>
     );
 }
