@@ -13,7 +13,7 @@ function ProductItem() {
             <Image src={AJ_2} className="product_image" width="600" height="400"/>
             </a>
             <div className="desc-container text-center">
-                <h2>AJ J</h2>
+                <h2>AJ 2</h2>
                 <p>SOLD</p>
                 {/* <p>Dimensions: 12x16</p>
                 <div className="button-container">
